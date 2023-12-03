@@ -129,3 +129,48 @@ h1
   text-align: justify;
   margin-bottom: 25px;
 }
+
+
+
+/* Media query voor smartphones */
+@media only screen and (max-width: 768px) {
+  nav {
+    padding: 5px;
+  }
+
+  .contact-button {
+    margin: 0 5px; 
+  }
+
+  .homepage__content {
+    padding: 30px 5%; 
+  }
+
+  h1 {
+    font-size: 36px; 
+    margin-bottom: 15px;
+  }
+
+  .buttons .button {
+    width: 120px; 
+    height: 40px;
+    font-size: 14px; 
+  }
+
+  .Over_ons {
+    max-width: 90%; 
+    margin: 20px auto; 
+    padding: 15px; 
+  }
+
+  .Over_ons h2 {
+    font-size: 24px; 
+    margin-bottom: 15px;
+  }
+
+  .Over_ons p {
+    font-size: 14px; 
+    max-width: 100%; 
+    margin-bottom: 15px;
+  }
+}
